@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using LoggingFromSummaryOfMethod.Loggers;
 
 namespace LoggingFromSummaryOfMethod
 {
     /// <summary />
-    [LogCall]
+    [LogSummary]
     public class TestClass
     {
         /// <summary>

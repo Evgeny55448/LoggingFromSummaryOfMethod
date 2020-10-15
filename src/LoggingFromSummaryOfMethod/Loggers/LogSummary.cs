@@ -1,17 +1,14 @@
 ﻿using AspectInjector.Broker;
 using Namotion.Reflection;
 using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
-using System.Text.RegularExpressions;
 
-namespace LoggingFromSummaryOfMethod
+namespace LoggingFromSummaryOfMethod.Loggers
 {
     /// <summary />
     [Aspect(Scope.Global)]
-    [Injection(typeof(LogCall))]
-    public class LogCall : Attribute
+    [Injection(typeof(LogSummary))]
+    public class LogSummary : Attribute
     {
         /// <summary />
         [Advice(Kind.Before, Targets = Target.Method)]

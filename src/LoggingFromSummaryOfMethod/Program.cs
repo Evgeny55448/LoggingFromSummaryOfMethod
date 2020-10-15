@@ -1,16 +1,15 @@
-﻿using System;
+﻿using LoggingFromSummaryOfMethod.Loggers;
 
 namespace LoggingFromSummaryOfMethod
 {
     class Program
     {
+        [LogMethodName]
         static void Main(string[] args)
         {
-            Console.WriteLine("Start app");
             var a = new TestClass();
             a.GetValue();
             a.Show();
-            Console.WriteLine("End app");
         }
     }
 }

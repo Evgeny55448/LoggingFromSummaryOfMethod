@@ -4,13 +4,22 @@
         <name>LoggingFromSummaryOfMethod</name>
     </assembly>
     <members>
-        <member name="T:LoggingFromSummaryOfMethod.LogCall">
+        <member name="T:LoggingFromSummaryOfMethod.Loggers.LogMethodName">
             <summary />
         </member>
-        <member name="M:LoggingFromSummaryOfMethod.LogCall.TraceBegin(System.Reflection.MethodBase)">
+        <member name="M:LoggingFromSummaryOfMethod.Loggers.LogMethodName.TraceBegin(System.Reflection.MethodBase,System.Type)">
             <summary />
         </member>
-        <member name="M:LoggingFromSummaryOfMethod.LogCall.TraceEnd(System.Reflection.MethodBase)">
+        <member name="M:LoggingFromSummaryOfMethod.Loggers.LogMethodName.TraceEnd(System.Reflection.MethodBase,System.Type)">
+            <summary />
+        </member>
+        <member name="T:LoggingFromSummaryOfMethod.Loggers.LogSummary">
+            <summary />
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.Loggers.LogSummary.TraceBegin(System.Reflection.MethodBase)">
+            <summary />
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.Loggers.LogSummary.TraceEnd(System.Reflection.MethodBase)">
             <summary />
         </member>
         <member name="T:LoggingFromSummaryOfMethod.TestClass">
