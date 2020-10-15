@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LoggingFromSummaryOfMethod</name>
+    </assembly>
+    <members>
+        <member name="T:LoggingFromSummaryOfMethod.LogCall">
+            <summary />
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.LogCall.TraceBegin(System.Reflection.MethodBase)">
+            <summary />
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.LogCall.TraceEnd(System.Reflection.MethodBase)">
+            <summary />
+        </member>
+        <member name="T:LoggingFromSummaryOfMethod.TestClass">
+            <summary />
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.TestClass.GetValue">
+            <summary>
+            method GetValue
+            </summary>
+            <returns>int value</returns>
+        </member>
+        <member name="M:LoggingFromSummaryOfMethod.TestClass.Show">
+            <summary>
+            method Show
+            </summary>
+        </member>
+    </members>
+</doc>
